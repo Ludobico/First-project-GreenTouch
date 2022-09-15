@@ -80,7 +80,7 @@ function Header() {
         )}
         {LogOut && (
           <button className="loginBtn" onClick={GotoLogoutForm}>
-            로그아웃
+            로그아
           </button>
         )}
       </div>

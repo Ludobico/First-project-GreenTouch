@@ -2,8 +2,8 @@ import create from "zustand";
 
 const useStore = create((set) => ({
   user_location: window.sessionStorage.getItem("adress"),
-  Login: false,
-  LogOut: true,
+  Login: true,
+  LogOut: false,
   setloginfalse: () => set((state) => ({ Login: !state.Login })),
   setlogoutfalse: () => set((state) => ({ LogOut: !state.LogOut })),
 }));
