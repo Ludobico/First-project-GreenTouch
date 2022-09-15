@@ -70,7 +70,7 @@ const BoardWrite = ({
     var page_count = 1;
     var page_size = 3;
     await axios
-      .get("http://localhost:8008/count", {})
+      .get("https://greentouch.herokuapp.com/count", {})
       .then((res) => {
         console.log("handleInsert(res) => ", res);
         const { data } = res;
@@ -85,7 +85,7 @@ const BoardWrite = ({
         console.error(e);
       });
     await axios
-      .post("http://localhost:8008/insert", {
+      .post("https://greentouch.herokuapp.com/insert", {
         title: titleRef.current.value,
         writer: window.sessionStorage.getItem("id"),
         content: contentRef.current.value,

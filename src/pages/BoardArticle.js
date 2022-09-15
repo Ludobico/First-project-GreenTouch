@@ -13,7 +13,7 @@ const BoardArticle = ({
     if (article.BOARD_WRITER === window.sessionStorage.getItem("id")) {
       console.log("handleDelete(board_num) => ", e.target.id);
       axios
-        .post("http://localhost:8008/delete", {
+        .post("https://greentouch.herokuapp.com/delete", {
           num: e.target.id,
         })
         .then(() => {

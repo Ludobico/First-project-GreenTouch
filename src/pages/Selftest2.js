@@ -20,7 +20,7 @@ import "./Modal.css";
 const Selftest2 = () => {
   useEffect(() => {
     axios
-      .post("http://localhost:8008/self2")
+      .post("https://greentouch.herokuapp.com/self2")
       .then((res) => {
         Setselftest2_data(res.data);
         console.log(selftest2_data);
@@ -144,7 +144,7 @@ const Selftest2 = () => {
   const Selftest2_score1 = () => {
     // setGrade("A");
     console.log(grade);
-    axios.post("http://localhost:8008/self2Score", {
+    axios.post("https://greentouch.herokuapp.com/self2Score", {
       id: window.sessionStorage.getItem("id"),
       score: selftest1_result,
       grade: "A",
@@ -198,7 +198,7 @@ const Selftest2 = () => {
   const Selftest2_score2 = () => {
     // setGrade("B");
     console.log(grade);
-    axios.post("http://localhost:8008/self2Score", {
+    axios.post("https://greentouch.herokuapp.com/self2Score", {
       id: window.sessionStorage.getItem("id"),
       score: selftest1_result,
       grade: "B",
@@ -246,7 +246,7 @@ const Selftest2 = () => {
   const Selftest2_score3 = () => {
     // setGrade("C");
     console.log(grade);
-    axios.post("http://localhost:8008/self2Score", {
+    axios.post("https://greentouch.herokuapp.com/self2Score", {
       id: window.sessionStorage.getItem("id"),
       score: selftest1_result,
       grade: "C",

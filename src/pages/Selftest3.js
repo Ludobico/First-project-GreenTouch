@@ -19,7 +19,7 @@ import { Pagination, Navigation } from "swiper";
 const Selftest3 = () => {
   useEffect(() => {
     axios
-      .post("http://localhost:8008/self3")
+      .post("https://greentouch.herokuapp.com/self3")
       .then((res) => {
         Setselftest3_data(res.data);
         console.log(selftest3_data);
@@ -123,7 +123,7 @@ const Selftest3 = () => {
   const Selftest3_score1 = () => {
     // setGrade("A");
     console.log(grade);
-    axios.post("http://localhost:8008/self3Score", {
+    axios.post("https://greentouch.herokuapp.com/self3Score", {
       id: window.sessionStorage.getItem("id"),
       score: selftest1_result,
       grade: "A",
@@ -169,7 +169,7 @@ const Selftest3 = () => {
   const Selftest3_score2 = () => {
     // setGrade("B");
     console.log(grade);
-    axios.post("http://localhost:8008/self3Score", {
+    axios.post("https://greentouch.herokuapp.com/self3Score", {
       id: window.sessionStorage.getItem("id"),
       score: selftest1_result,
       grade: "B",
@@ -216,7 +216,7 @@ const Selftest3 = () => {
   const Selftest3_score3 = () => {
     // setGrade("C");
     console.log(grade);
-    axios.post("http://localhost:8008/self3Score", {
+    axios.post("https://greentouch.herokuapp.com/self3Score", {
       id: window.sessionStorage.getItem("id"),
       score: selftest1_result,
       grade: "C",

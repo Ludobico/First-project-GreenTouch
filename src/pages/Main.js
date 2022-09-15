@@ -49,7 +49,7 @@ function Main() {
   //글목록
   async function getList() {
     await axios
-      .get("http://localhost:8008/count", {}) //axios.get(url,data)
+      .get("https://greentouch.herokuapp.com/count", {}) //axios.get(url,data)
       .then((res) => {
         //매개변수 res는 index.js에 있는 result를 받음
         const { data } = res; //비구조화 할당
@@ -73,7 +73,7 @@ function Main() {
         console.error(e);
       });
     await axios
-      .post("http://localhost:8008/list", {
+      .post("https://greentouch.herokuapp.com/list", {
         page_num: page_num,
         page_size: page_size,
         article_count: article_count,
@@ -97,7 +97,7 @@ function Main() {
   //상세보기
   const handleDetail = (e) => {
     axios
-      .post("http://localhost:8008/detail", { num: e.target.id })
+      .post("https://greentouch.herokuapp.com/detail", { num: e.target.id })
       .then((res) => {
         const { data } = res;
         console.log("detail =>", data);
@@ -128,7 +128,7 @@ function Main() {
     console.log(window.sessionStorage.getItem("id"));
     if (e.target.value === window.sessionStorage.getItem("id")) {
       axios
-        .post("http://localhost:8008/detail", { num: e.target.id }) //axios(url,data)
+        .post("https://greentouch.herokuapp.com/detail", { num: e.target.id }) //axios(url,data)
         //num: e.target.id 는 a태그의 id를 가르킴
         .then((res) => {
           const { data } = res;
@@ -159,7 +159,7 @@ function Main() {
   const handleUpdate = () => {
     console.log("handleUpdate =>", article);
     axios
-      .post("http://localhost:8008/update", {
+      .post("https://greentouch.herokuapp.com/update", {
         article: article,
       })
       .then(() => {
@@ -178,7 +178,7 @@ function Main() {
     }
 
     await axios
-      .post("http://localhost:8008/searchcount", {
+      .post("https://greentouch.herokuapp.com/searchcount", {
         searchword: searchword,
       })
       .then((res) => {
@@ -196,7 +196,7 @@ function Main() {
         console.error(e);
       });
     await axios
-      .post("http://localhost:8008/search", {
+      .post("https://greentouch.herokuapp.com/search", {
         searchWord: searchword,
       })
       // .then((res) => {

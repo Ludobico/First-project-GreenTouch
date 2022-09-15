@@ -31,7 +31,7 @@ const LoginForm = () => {
     );
 
     axios
-      .post("http://localhost:8008/login", {
+      .post("https://greentouch.herokuapp.com/login", {
         id: idRef.current.value,
         pw: pwRef.current.value,
       })

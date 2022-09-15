@@ -343,7 +343,7 @@ const MemberForm = () => {
       return false;
     }
     axios
-      .post("http://localhost:8008/member", {
+      .post("https://greentouch.herokuapp.com/member", {
         id: idRef.current.value,
         pw: pwRef.current.value,
         email: emailRef.current.value + emailState,

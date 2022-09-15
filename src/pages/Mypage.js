@@ -32,7 +32,7 @@ const Mypage = () => {
   useEffect(() => {
     console.log("idcheceker", window.sessionStorage.getItem("id"));
     axios
-      .post("http://localhost:8008/mypage", {
+      .post("https://greentouch.herokuapp.com/mypage", {
         id: window.sessionStorage.getItem("id"),
       })
       .then((res) => {
@@ -44,7 +44,7 @@ const Mypage = () => {
       });
 
     axios
-      .post("http://localhost:8008/mypage2", {
+      .post("https://greentouch.herokuapp.com/mypage2", {
         id: window.sessionStorage.getItem("id"),
       })
       .then((res) => {
@@ -55,7 +55,7 @@ const Mypage = () => {
         console.error(e);
       });
     axios
-      .post("http://localhost:8008/mypage3", {
+      .post("https://greentouch.herokuapp.com/mypage3", {
         id: window.sessionStorage.getItem("id"),
       })
       .then((res) => {
@@ -66,7 +66,7 @@ const Mypage = () => {
         console.error(e);
       });
     axios
-      .post("http://localhost:8008/mypage4", {
+      .post("https://greentouch.herokuapp.com/mypage4", {
         id: window.sessionStorage.getItem("id"),
       })
       .then((res) => {
@@ -77,7 +77,7 @@ const Mypage = () => {
         console.error(e);
       });
     axios
-      .post("http://localhost:8008/self1percentage")
+      .post("https://greentouch.herokuapp.com/self1percentage")
       .then((self1percentage) => {
         console.log(self1percentage.data[0].SELF1);
         SetTest1Data(self1percentage.data[0]?.SELF1);
@@ -86,7 +86,7 @@ const Mypage = () => {
         console.error(e);
       });
     axios
-      .post("http://localhost:8008/self2percentage")
+      .post("https://greentouch.herokuapp.com/self2percentage")
       .then((self2percentage) => {
         console.log(self2percentage.data[0].SELF2);
         SetTest2Data(self2percentage.data[0]?.SELF2);
@@ -95,7 +95,7 @@ const Mypage = () => {
         console.error(e);
       });
     axios
-      .post("http://localhost:8008/self3percentage")
+      .post("https://greentouch.herokuapp.com/self3percentage")
       .then((self3percentage) => {
         console.log(self3percentage.data[0].SELF3);
         SetTest3Data(self3percentage.data[0]?.SELF3);
@@ -107,7 +107,7 @@ const Mypage = () => {
 
   const delete_user = () => {
     if (window.confirm("회원정보를 삭제하시겠습니까?")) {
-      axios.post("http://localhost:8008/delete_user", {
+      axios.post("https://greentouch.herokuapp.com/delete_user", {
         id: window.sessionStorage.getItem("id"),
       });
       alert("회원정보가 삭제되었습니다.");
