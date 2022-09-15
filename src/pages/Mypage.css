@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'DoHyeon-Regular';
+    src: url('../fonts/DoHyeon-Regular.ttf')
+}
+
+.mypage{
+    width:70vw;
+    margin:0 auto;
+    font-family: 'DoHyeon-Regular';
+    letter-spacing: 1px;
+}
+
+.page_header_logo{
+    font-size: 150px;
+    text-align: center;
+}
+
+.page_header_user{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top:-10px;
+}
+.info_box1_top{
+    margin-top:5vw;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 5vw;
+}
+.info_box2_top {
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 5vw;
+}
+.info_box1{
+    background-color: whitesmoke;
+    border-radius: 1vw;
+    width:20vw;
+    height:27vh;
+    margin-left:2vw;
+    margin-right:2vw;
+    transition-duration: 0.5s;
+    /* padding-bottom: 15vw; */
+}
+.info_box2 {
+    background-color: whitesmoke;
+    border-radius: 1vw;
+    width: 20vw;
+    height: 50vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    transition-duration: 0.5s;
+    /* margin-bottom: 10vw; */
+}
+
+.info_box_title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top:1vw;
+    margin-left:1vw;
+}
+
+.info_box_content {
+    font-size: 22px;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+.info_box_image{
+    display:flex;
+    font-size: 75px;
+    justify-content: right;
+    margin-right:2vw;
+    padding-top: 3vw;
+    margin-bottom: 10vh;
+    /* border:1px solid black; */
+}
+
+.info_box_image img {
+    position:absolute;
+    width:75px;
+    bottom:10%;
+}
+
+.info_box1:hover{
+    box-shadow: 0 0 5vw 1vw rgba(0, 0, 0, 0.1);
+}
+
+.info_box2:hover {
+    box-shadow: 0 0 5vw 1vw rgba(0, 0, 0, 0.1);
+}
+
+.delete_user{
+    width:40%;
+    margin:0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+}

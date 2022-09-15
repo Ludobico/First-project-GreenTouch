@@ -1,0 +1,785 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@font-face {
+  font-family: 'BMDOHYEON_ttf';
+  src: url('../fonts/BMDOHYEON_ttf.ttf')
+}
+
+.bodyTag {
+  width: 100vw;
+  height: 90vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.bodyTag h1 {
+  font-family: "BMDOHYEON_ttf";
+}
+
+.bodyTag p {
+  /* font-family: "BMDOHYEON_ttf"; */
+  letter-spacing: 1px;
+}
+
+.partition {
+  border: none;
+  margin: 30px 10px 10px 10px;
+}
+
+/* ------------------------------------------------------------- */
+#head_swiper {
+  /* background-color: rgb(230, 255, 250); */
+}
+
+.mySwiper_dep {
+  /* width: 100vh; */
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 15%; */
+  /* margin:0; */
+}
+
+.mySwiper_dep img {
+  height: 100%;
+  width: 100%;
+}
+
+.mySwiper2 #swiper_article3>img {
+  border-radius: 60px;
+}
+
+
+.mySwiper2 h1 {
+  margin-top: 10%;
+}
+
+/* #swiper_article2 {
+  background-color: rgba(0, 166, 203, 0.658);
+}
+
+#swiper_article4 {
+  background-color: rgba(0, 166, 203, 0.658);
+} */
+
+/* --------------------------------------------------------- */
+#index_btn {
+  margin: 0 0 10vw;
+  display: block;
+  width: 89%;
+  height: auto;
+  overflow: auto;
+  padding: 20px 0 50px 0;
+  z-index: 100;
+}
+
+#index_btn h1 {
+  font-weight: 800;
+  /* 0826 밑 3줄 추가 */
+  color: white;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  padding-top: 50px;
+}
+
+#index_btn>div {
+  float: left;
+  width: 17%;
+  height: 80%;
+  background-size: cover;
+  margin: 0 1%;
+  box-shadow: 0 25px 15px rgba(0, 0, 0, 0.8);
+}
+
+.contentstitle_adhd {
+  margin-top: 20px;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #424242;
+}
+
+.mySwiper1 {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.mySwiper1 .swiper-slide {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.mySwiper1 .swiper-slide div {
+  background: rgba(255, 255, 255, 0.7);
+  padding-bottom: 150px;
+  width: 100%;
+  height: 100%;
+}
+
+article {
+  width: 100vw;
+  padding: 0px;
+}
+
+#btn1 {
+  background: url(../images/Depression/Logo2.png) no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#btn1:hover {
+  transform: scale(1.1);
+  opacity: 30%;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#btn2 {
+  background: url(../images/ex/consulting1.webp) no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#btn2:hover {
+  transform: scale(1.1);
+  opacity: 30%;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#btn3 {
+  background: url(../images/Depression/selfcare_tip.png) no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#btn3:hover {
+  transform: scale(1.1);
+  opacity: 30%;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#btn4 {
+  background: url(../images/Depression/selftest.png) no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#btn4:hover {
+  transform: scale(1.1);
+  opacity: 30%;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.show_btn {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-size: cover;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.show_btn:hover {
+  transform: scale(1.1);
+  opacity: 30%;
+  transition: 0.5s;
+}
+
+.show_btn h1 {
+  font-size: 48px;
+  padding-top: 90px;
+}
+
+#index_btn_adhd .mBtn1 {
+  background-image: url(../images/ADHD/adhd_mBtn2.png);
+}
+
+#index_btn_adhd .mBtn2 {
+  background-image: url(../images/Depression/dep_mBtn2.png);
+}
+
+#index_btn_adhd .mBtn3 {
+  background-image: url(../images/ADHD/adhd_mBtn1.png);
+}
+
+#index_btn_adhd .mBtn4 {
+  background-image: url(../images/selftestlogo1.png);
+}
+
+#index_btn_adhd .mBtn5 {
+  background-image: url(../images/question_mark.png);
+}
+
+#show-desc1 {
+  width: 100vw;
+  background-color: white;
+  margin-top: 150px;
+}
+
+.desc1_div_img {
+  position: relative;
+  padding: 300px;
+  padding-left: 450px;
+  border-radius: 20% 0% 0% 20%;
+  background: rgba(3, 168, 78, 0.15);
+  float: right;
+  margin-bottom: 400px;
+}
+
+.desc1_div_img #pic1 {
+  position: absolute;
+  left: 10%;
+  bottom: 0%;
+  width: 660px;
+  /* height: 600px; */
+  /* 이미지 바꾸면 height(480px)도 바꾸기 */
+  height: 480px;
+  border-radius: 20% 0% 0% 20%;
+  float: right;
+}
+
+.desc1_content #headline1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: left;
+  padding-left: 400px;
+  color: rgb(42, 42, 42);
+}
+
+#show-desc1 .exp1 {
+  font-size: 38px;
+  font-weight: 800;
+  display: flex;
+  padding-left: 400px;
+  color: rgb(42, 42, 42);
+
+}
+
+.exp_bottom {
+  padding-left: 400px;
+}
+
+.exp_img {
+  width: 40vw;
+  padding-top: 50px;
+  text-align: left;
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+
+#show-desc2 {
+  position: relative;
+  width: 100vw;
+  height: 90vh;
+  /* background-color: rgba(0, 166, 203, 0.658); */
+  background-color: lightgray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#show-desc2 .center_circle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.center_circle_content1 {
+  font-size: 3.5rem;
+  line-height: 300px;
+  font-weight: 800;
+  color: #424242;
+}
+
+#show-desc2 .gene {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 100%;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 10px 10px 30px rgb(81, 80, 80);
+  justify-content: center;
+  transition: all ease 0.5s;
+}
+
+
+#show-desc2 .gene:hover {
+  width: 200px;
+  height: 200px;
+}
+
+#show-desc2 .neurological:hover {
+  width: 200px;
+  height: 200px;
+}
+
+#show-desc2 .neurochemical:hover {
+  width: 200px;
+  height: 200px;
+}
+
+.outline_circle img {
+  width: 150px;
+  transition: 0.5s;
+}
+
+.outline_circle img:hover {
+  width: 200px;
+}
+
+#show-desc2 .neurological {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: -100%;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 10px 10px 30px rgb(81, 80, 80);
+  justify-content: center;
+  transition: 0.5s;
+}
+
+#show-desc2 .neurochemical {
+  position: absolute;
+  left: 90%;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 10px 10px 30px rgb(81, 80, 80);
+  justify-content: center;
+  transition: 0.5s;
+}
+
+#show-desc2 .neuroanatomy {
+  position: absolute;
+  left: -20%;
+  right: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 10px 10px 30px rgb(81, 80, 80);
+  justify-content: center;
+  transition: 0.5s;
+}
+
+#show-desc2 .neuroanatomy:hover {
+  width: 200px;
+  height: 200px;
+}
+
+.environmental img {
+  border-radius: 50%;
+}
+
+#show-desc2 .outline_circle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 600px;
+  height: 600px;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+
+.outline_circle .gene_content {
+  position: absolute;
+  top: 95%;
+  right: -40%;
+  color: #424242;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  display: block;
+}
+
+.gene_content_title {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.outline_circle .neurological_content {
+  position: absolute;
+  top: -10%;
+  right: -70%;
+  color: #424242;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.neurological_content_title {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.outline_circle .neurochemical_content {
+  position: absolute;
+  top: 40%;
+  right: -100%;
+  color: #424242;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.neurochemical_content_title {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.outline_circle .neuroanatomy_content {
+  position: absolute;
+  top: 55%;
+  left: -95%;
+  color: #424242;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+.neuroanatomy_content_title {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+/* --------치료방안-------------------------------------------- */
+
+.treatment_title_adhd h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #424242;
+}
+
+.treatment {
+  width: 100vw;
+  margin-top: 200px;
+}
+
+#show-treatment {
+  width: 80vw;
+  height: auto;
+  margin-top: 100px;
+  /* overflow: hidden; */
+  /* width: 1000px; */
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#show-treatment .card {
+  position: relative;
+  border: none;
+  /* height: 500px; */
+}
+
+#show-treatment .card .face {
+  width: 400px;
+  height: 200px;
+  transition: 0.4s;
+  /* margin-top: 3px; */
+}
+
+#show-treatment .card .face.face1 {
+  position: relative;
+  background-color: #424242;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+#show-treatment .card:hover .face.face1 {
+  transform: translateY(0);
+  /* box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px rgb(36, 255, 128),
+      inset -20px 0 80px rgb(27, 241, 177), inset 20px 0 300px rgb(36, 255, 128),
+      inset -20px 0 300px rgb(27, 241, 177), 0 0 50px #fff,
+      -10px 0 80px rgb(36, 255, 128), 10px 0 80px rgb(27, 241, 177); */
+}
+
+#show-treatment .card .face.face1 .content {
+  opacity: 0.2;
+  transition: 0.5s;
+  text-align: center;
+}
+
+#show-treatment .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+#show-treatment .card .face.face1 .content p {
+  font-size: 3em;
+  color: white;
+  display: inline-block;
+}
+
+#show-treatment .card .face1 .content h3 {
+  font-size: 25px;
+  margin-top: 5px;
+  color: white;
+  text-align: center;
+}
+
+/* #show-treatment .card .face.face1 .content a {
+  transition: 0.5s;
+} */
+#show-treatment .card .face.face2 {
+  position: relative;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+  height: 220px;
+}
+
+#show-treatment .card:hover .face.face2 {
+  transform: translateY(0);
+}
+
+#show-treatment .card .face2 .content p {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+#show-treatment .card .face.face2 .content a {
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  outline: 1px dashed #333;
+  padding: 10px;
+  margin: 15px 0 0;
+  display: inline-block;
+}
+
+#show-treatment .card .face.face2 .content a:hover {
+  background: #333;
+  color: whitesmoke;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* --------셀프케어------------------------------------------- */
+
+#show-tip {
+  height: auto;
+  margin-top: 250px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.show-tip_h_tag {
+  font-weight: 600;
+}
+
+#show-tip .mySwiper1 {
+  width: 80%;
+  height: 700px;
+}
+
+#show-tip .swiper-slide div {
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+#show-tip .text1 {
+  /* margin-top: 20%; */
+  margin-top: 0%;
+  font-size: 48px;
+}
+
+#show-tip .text2 {
+  font-size: 20px;
+  height: 15vh;
+}
+
+#show-tip .text3 {
+  margin: 5% 5%;
+}
+
+#protein {
+  background-color: whitesmoke;
+  border-radius: 1.575rem;
+  background: url(../images/ex/protein.png) no-repeat;
+  background-size: cover;
+}
+
+
+#carbohydrate {
+  background-color: whitesmoke;
+  border-radius: 1.575rem;
+  background: url(../images/ex/carbohydrate.jpg) no-repeat;
+  background-size: cover;
+}
+
+#omega-3A {
+  background-color: whitesmoke;
+  border-radius: 1.575rem;
+  background: url(../images/ex/omega-3A.jpg) no-repeat;
+  background-size: cover;
+}
+
+#folate {
+  background-color: whitesmoke;
+  border-radius: 1.575rem;
+  background: url(../images/ex/folate.jpg) no-repeat;
+  background-size: cover;
+}
+
+#ingredient1 {
+  background-color: whitesmoke;
+  border-radius: 1.575rem;
+  background: url(../images/ex/foods1-1.jpg) no-repeat;
+  background-size: cover;
+}
+
+#ingredient2 {
+  background-color: whitesmoke;
+  border-radius: 1.575rem;
+  background: url(../images/ex/foods1-2.jpg) no-repeat top;
+  background-size: cover;
+}
+
+#sugar {
+  background: url(../images/ex/sugar1.jpg) no-repeat top;
+  background-size: cover;
+  background-color: whitesmoke;
+  border-radius: 1.575rem;
+}
+
+
+#monosaccharide {
+  background: url(../images/ex/sugar2.jpg) no-repeat top;
+  background-size: cover;
+  background-color: whitesmoke;
+  border-radius: 1.575rem;
+}
+
+#caffeine {
+  background: url(../images/ex/caffeine.jpg) no-repeat top;
+  background-size: cover;
+  background-color: whitesmoke;
+  border-radius: 1.575rem;
+}
+
+#fastfood {
+  background: url(../images/ex/fastfood2.jpg) no-repeat top;
+  background-size: cover;
+  background-color: whitesmoke;
+  border-radius: 1.575rem;
+}
+
+.swiper_desc {
+  font-size: 20px;
+}
+
+.nosugar1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: rgb(42, 42, 42);
+  text-align: center;
+}
+
+#show-selftest_dep {
+  width: 100%;
+}
+
+.hospital {
+  padding-top: 100px;
+  padding-bottom: 600px;
+  width: 100vw;
+  height: 50vh;
+  /* margin: 30px 0 30px 0; */
+  background-color: white;
+}
+
+.hospital_content_dep {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #424242;
+}
+
+.topbtn {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 6rem;
+  right: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: cente;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: #000;
+}
+
+.topbutton_img {
+  width: 64px;
+  height: 64px;
+}
+
+.bubblespace {
+  display: flex;
+  width: 20%;
+  height: 100px;
+}

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "BlackHanSans";
+  src: url(../fonts/BlackHanSans-Regular.ttf);
+}
+@font-face {
+  font-family: "DoHyeon";
+  src: url(../fonts/DoHyeon-Regular.ttf);
+}
+@font-face {
+  font-family: "jua";
+  src: url(../fonts/Jua-Regular.ttf);
+}
+@font-face {
+  font-family: "PoorStory";
+  src: url(../fonts/PoorStory-Regular.ttf);
+}
+

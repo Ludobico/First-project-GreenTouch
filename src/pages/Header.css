@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titleBtn {
+    margin-left: 15vw;
+    width: 15vw;
+    height: 10vh;
+    float: left;
+    /* background-color: red; */
+}
+
+.titleLogo {
+    width: 15vw;
+    height: 10vh;
+    /* background-color: blue; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content {
+    position: relative;
+}
+
+.content h2 {
+    /* letter-spacing: 2.5px; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.content h2:nth-child(1) {
+    color: transparent;
+    /* color: rgba(3, 168, 78, 0.15); */
+    -webkit-text-stroke: 0.01px rgba(3,
+        168,
+        78,
+        0.85);
+}
+
+.content h2:nth-child(2) {
+    color: rgba(3, 168, 78, 0.5);
+    z-index: -99;
+    animation: animate 2.5s ease-in-out infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%,
+                54% 60%, 70% 61%, 84% 59%, 100% 52%,
+                100% 100%, 0% 100%);
+    }
+
+    50% {
+        clip-path: polygon(0% 60%, 16% 65%, 34% 66%,
+                51% 62%, 67% 50%, 84% 45%, 100% 46%,
+                100% 100%, 0% 100%);
+    }
+}
+
+.titleMenu {
+    width: 30.5vw;
+        height: 10vh;
+        margin-left: 24.5vw;
+        float: left;
+    /* background-color: blue; */
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.titleMenu>button {
+    font-weight: 700;
+    font-size: 1.25rem;
+    transition-duration: 0.2s;
+}
+
+.headerBtn {
+    width: 5vw;
+        height: 5vh;
+        margin: 2.5vh 0.5vw 2.5vh 0.5vw;
+    /* background-color: red; */
+}
+
+.headerBtn:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+    cursor: pointer;
+    color: rgba(3, 168, 78, 1);
+}
+
+.loginBtn {
+    width: 5vw;
+        height: 5vh;
+        margin-left: 0.5vw;
+        background-color: rgba(3, 168, 78, 0.85);
+        color: white;
+        border-radius: 0.5vw;
+        transition-duration: 0.5s;
+        border: none;
+}
+
+.loginBtn:hover {
+    background-color: rgba(1, 1, 1, 0.75);
+        cursor: pointer;
+}

@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.modalWrap h1 {
+    position: relative;
+    font-family: "DoHyeon";
+    font-size: 3rem;
+}
+.modalWrap h2 {
+    position: relative;
+    font-family: "DoHyeon";
+    font-size: 2rem;
+}
+.modalWrap p {
+    position: relative;
+    font-family: "DoHyeon";
+    font-size: 1.2rem;
+}
+
+#contained-modal-title-vcenter{
+    font-size: 2.5rem;
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.testDate{
+    width: 100%;
+    font-size: 1rem;
+    text-align: right;
+    font-style: italic;
+}
+
+.modal-body {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.modalWrap div{
+    border-radius: 25px;
+    margin-bottom: 17.5px;
+    transition-duration: 0.5s;
+}
+
+.modalWrap div:hover{
+    box-shadow: 0 0 5vw 1vw rgba(0, 0, 0, 0.1);
+}
+
+.modalResult{
+    width: 100%;
+    height: 20vh;
+    background-color: #D4FB79;
+    /* float: left; */
+}
+
+.resultCon1{
+    width: 48.5%;
+    height: 50vh;
+    float: left;
+}
+
+.resultCon2{
+    width: 68.5%;
+    height: 25vh;
+    float: left;
+}
+
+.resultCon3{
+    width: 28.5%;
+    height: 25vh;
+    float: left;
+}
+
+.moRight{
+    margin-right: 1.5%;
+}
+
+.moLeft{
+    margin-left: 1.5%;
+}
+
+.moCon31A{
+    background-color: #009051;
+    background-image: url(../images/modalImg/modalAn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.moCon31B {
+    background-color: gold;
+    background-image: url(../images/modalImg/modalWa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.moCon31C {
+    background-color: #FF7E79;
+    background-image: url(../images/modalImg/modalDa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.moCon21A {
+    background-color: #76D6FF;
+    background-image: url(../images/modalImg/modalTitle01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.moCon21B {
+    background-color:royalblue;
+    background-image: url(../images/modalImg/modalTitle02.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+    .moCon21B h1 {
+        color: white;
+        font-size: 7rem;
+        position: relative;
+        left: 60%;
+        bottom: -35%;
+    }
+    .moCon21B h2 {
+        color: white;
+        font-size: 4rem;
+        position: relative;
+        left: 72%;
+        bottom: 10%;
+    }
+
+.moCon21C{
+    background-color: gray;
+    background-image: url(../images/modalImg/modalTitle03.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.moCon11A{
+    background-image: url(../images/modalImg/wakeup1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(240,243,248);
+    opacity: 80%;
+}
+    .moCon11A h1 {
+        bottom: -70%;
+        left: -5%;
+    }
+
+.moCon12A{
+    background-image: url(../images/modalImg/breakfast2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(234,234,236);
+    opacity: 80%;
+}
+    .moCon12A h1 {
+        bottom: -10%;
+        left: 3%;
+    }
+
+.moCon22A{
+    background-image: url(../images/modalImg/caffeine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 80%;
+}
+
+.moCon32A {
+    color: white;
+    background-color: cornflowerblue;
+}
+    .moCon32A h2 {
+        position: relative;
+        bottom: -20%;
+        left: 10%;
+    }
+
+.moCon33A{
+    background-image: url(../images/test2_selfscore1_img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: rgb(240,243,248); */
+    opacity: 80%;
+}
+
+.moCon23A {
+    color: white;
+    background-color: salmon;
+}
+    .moCon23A h1 {
+        position: relative;
+        bottom: -10%;
+        left: 5%;
+    }
+
+.moCon11B {
+    background-image: url(../images/modalImg/ADHD1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(101, 116, 123);
+}
+
+.moCon12B {
+    background-image: url(../images/modalImg/ADHD2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(229, 181, 116);
+}
+    .moCon11B h1, .moCon12B h1 {
+        bottom: -3%;
+        left: 3%;
+        color: white;
+    }
+    .moCon11B h2, .moCon12B h2 {
+        left: 5%;
+        color: white;
+    }
+
+.moCon22B {
+    background-color: skyblue;
+}
+    .moCon22B h1, .moCon22B h2, .moCon22B p {
+        left: -3%;
+        bottom: -20%;
+        color: white;
+    }
+    
+.moCon32B {
+    background-image: url(../images/modalImg/ADHD3.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(202,252,253);
+}
+
+.moCon33B {
+    background-image: url(../images/modalImg/training2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(255,232,221);
+}
+
+.moCon23B {
+    background-color:plum;
+}
+    .moCon23B h1 {
+        color: white;
+        left: 3%;
+        bottom: -20%;
+    }
+
+.moCon11C {
+    background-image: url(../images/modalImg/pill2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: rgb(240, 241, 241);
+}
+
+.moCon12C {
+    background-image: url(../images/modalImg/CATtest.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: navy;
+    color: white;
+}
+    .moCon11C h1, .moCon11C h2, .moCon12C h1, .moCon12C h2 {
+        position: relative;
+        left: 3%;
+        bottom: -3%;
+    }
+    .moCon11C h1, .moCon11C h2 {
+        left: -8%;
+        bottom: -70%;
+    }
+
+.moCon22C {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.moCon23C {
+    background-color: khaki;
+}
+    .moCon22C h1, .moCon23C h1 {
+        left: 3%;
+        bottom: -3%;
+    }
+    .moCon22C h2, .moCon23C h2 {
+        left: 5%;
+    }
+
+.moCon32C {
+    background-image: url(../images/modalImg/syringe1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(243, 253, 255);
+}
+
+.moCon33C {
+    background-image: url(../images/modalImg/syringe2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgb(226, 220, 203);
+}

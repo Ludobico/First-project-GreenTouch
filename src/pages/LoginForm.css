@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Uchen&display=swap');
+@font-face {
+    font-family: 'BMDOHYEON_ttf';
+    src: url('../fonts/BMDOHYEON_ttf.ttf')
+}
+
+.body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background: url('../images/login.jpg');
+    background-size:cover;
+
+}
+
+.body::before{
+    content: '';
+    position: absolute; z-index: 1;
+    top:0; right:0; bottom:0; left:0;
+    background-color: rgba(0,0,0,.6);
+}
+
+.login-form{
+    position:relative;
+    z-index: 2;
+}
+
+.login-form h1{
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.int-area {
+    width: 400px;
+    position:relative;
+    margin-top: 20px;
+}
+
+.int-area:first-child{
+    margin-top:0;
+}
+
+.int-area input {
+    width:100%;
+    padding: 20px 10px 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #999;
+    font-size: 18px; color: #fff;
+    outline: none;
+}
+
+.int-area label {
+    position: absolute;
+    left: 10px;
+    top:15px;
+    font-size:18px;
+    color: #999;
+    transition: top 0.5s ease;
+}
+
+.int-area input:focus + label,
+.int-area input:valid + label {
+    top:-2px;
+    font-size: 13px; color: #11ef2e;
+}
+.btn-area {
+    margin-top:30px;
+    margin-right: 10px;
+    display: inline;
+}
+
+.btn-area input{
+    background-size: 300% 100%;
+    color:white;
+    margin-top: 30px;
+    font-size: 16px;
+    width:45%;
+    height:50px;
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(139, 255, 201, 0.75);
+    font-size:20px;
+    border:none;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+}
+
+.btn-area input:hover{
+    background-position: 100% 0;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.regist{
+    margin-left:10px;
+    display:inline;
+}
+.regist input{
+    background-size: 300% 100%;
+    color: white;
+    width:45%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(139, 255, 201, 0.75);
+    transition: all .4s ease-in-out;
+}
+
+.regist input:hover{
+    background-position: -100% 0;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.btn-area2 input{
+    background-size: 300% 100%;
+    margin-top: 30px;
+        width: 100%;
+            height: 50px;
+        border-radius: 50px;
+            background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+            box-shadow: 0 4px 15px 0 rgba(139, 255, 201, 0.75);
+            font-size: 20px;
+            border: none;
+            border-radius: 25px;
+            color: white;
+            transition: all .4s ease-in-out;
+}
+
+.btn-area2 input:hover{
+    background-position: 100% 0;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+}
+
+.email-area{
+    width:400px;
+    height:40px;
+    display: flex;
+}
+.selectform{
+    width:200px;
+    display: flex;
+}
+
+.locationForm{
+    font-size: 15px;
+    color: #11ef2e;
+    padding-left: 10px;
+}
+
+.locationForm select{
+    display:flex;
+}
+
+.selectMarge{
+    padding-top:15px;
+    padding-left:2px;
+    display:flex;
+}
+
+.login-form .selectform{
+    background-color: rgb(218, 216, 216);
+    appearance: none;
+    padding: 0.5em 3.5em 0.5em 1em;
+    border-radius: 4px;
+    background-image:
+        linear-gradient(45deg, transparent 50%, gray 50%),
+        linear-gradient(135deg, gray 50%, transparent 50%),
+        radial-gradient(#ddd 70%, transparent 72%);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - .5em) .5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1.5em 1.5em;
+    background-repeat: no-repeat;
+}
+
+.login-form .selectform:focus{
+    background-image:
+        linear-gradient(45deg, white 50%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, white 50%),
+        radial-gradient(gray 70%, transparent 72%);
+    background-position:
+        calc(100% - 15px) 1em,
+        calc(100% - 20px) 1em,
+        calc(100% - .5em) .5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1.5em 1.5em;
+    background-repeat: no-repeat;
+    border-color: green;
+    outline: 0;
+}

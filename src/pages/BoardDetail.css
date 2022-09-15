@@ -1,0 +1,87 @@
+/* BoardDetail.css와 MdList, 붓스트랩 Button 추가  */
+/* BoardDetail.js의 form에 className='detail' */
+/* 글목록을 붓스트랩 버튼으로 바꿈 */
+
+.detail {
+  width: 70%;
+  margin: 0 15vw;
+  padding-bottom: 30px;
+}
+
+.detail table {
+  /* margin: auto; */
+  margin-top: 100px;
+  font-size: 17px;
+  width: 100%;
+  /* margin-bottom: 100px; */
+}
+
+/* 테이블 내에 선 넣기 */
+.detail table .tr {
+  padding: 10px;
+  border: 1px solid whitesmoke;
+}
+
+.detable {
+  border: 1px solid whitesmoke;
+}
+
+.detail table .td {
+  color: white;
+}
+
+.detail tr td:first-child {
+  background: rgba(3, 168, 78, 0.75);
+}
+
+.detail tr:nth-child(5) td {
+  background: white;
+  padding: 25px;
+}
+
+.detail tr:nth-child(5) {
+  height: 40vh;
+  position: relative;
+}
+
+.detail_content {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  /* background: lightcyan; */
+  padding: 30px 15px;
+}
+
+.Main_top_title_top h1 {
+  font-size: 3.5rem;
+  color: #424242;
+  padding-right: 10px;
+}
+
+.detail tr:last-child td {
+  background: white;
+}
+
+.detail tr:last-child {
+  /* border-bottom: 1px solid lightgray; */
+}
+
+/* 글목록 버튼 */
+.detail Button {
+  font-size: 17px;
+}
+
+.list_button {
+  width: 130px;
+  height: 40px;
+  background-color: rgba(3, 168, 78, 0.75);
+  border-radius: 8px;
+  padding: 7px;
+  color: white;
+  padding-right: 20px;
+}
+
+.list_button:hover {
+  background-color: rgb(66, 66, 66);
+  color: white;
+}

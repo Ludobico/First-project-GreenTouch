@@ -1,0 +1,131 @@
+.selftest {
+    display: block;
+    margin-top:40px;
+}
+
+.selftest_top_div{
+    position: relative;
+    height:20vh;
+    background-color: whitesmoke;
+    z-index: 0;
+}
+
+.selftest_top_div h1{
+    position:relative;
+    top:15%;
+    color: #424242;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 3.5rem;
+}
+.selftest_top_div p {
+    position: relative;
+    top: 15%;
+    color: #424242;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 32px;
+}
+.selftest_test {
+    display: inline;
+    place-content: center;
+    margin: 0;
+    /* padding: 20px; */
+    box-sizing: border-box;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Open Sans", sans-serif;
+}
+
+.selftest_content {
+    color: #576071;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* MAIN */
+/* =============================================== */
+.selftest_radio {
+    display: flex;
+    justify-content: center;
+}
+
+.rad-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 14px 16px;
+    margin: 15px 13px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.rad-label:hover,
+.rad-label:focus-within {
+    background: hsla(0, 0%, 80%, 0.14);
+}
+
+.rad-input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    z-index: -1;
+}
+
+.rad-design {
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+
+    background: linear-gradient(to right bottom,
+            rgba(3, 168, 78, 0.7),
+            rgba(3, 168, 78, 0.7));
+    position: relative;
+}
+
+.rad-design::before {
+    content: "";
+
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+
+    background: hsl(0, 0%, 90%);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.rad-input:checked+.rad-design::before {
+    transform: scale(0);
+}
+
+.rad-text {
+    color: hsl(0, 0%, 60%);
+    margin-left: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 900;
+
+    transition: 0.3s;
+}
+
+.rad-input:checked~.rad-text {
+    color: hsl(0, 0%, 40%);
+}
+
+.mbti_mySwiper .swiper-button-prev{
+    /* left:8% */
+}
+
+.mbti_mySwiper .swiper-button-next{
+    /* right:8% */
+}

@@ -1,0 +1,56 @@
+.tablelist {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#pagetbl {
+  margin: 0 auto;
+}
+
+.Tbl_list td {
+  padding: 20px;
+}
+
+.Tbl_list a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.tablelist th {
+  border-top: 3px solid #3bb78f;
+  border-bottom: 1px solid #3bb78f;
+}
+
+.article_button1 {
+  width: 100px;
+  height: 40px;
+  background-color: rgba(3, 168, 78, 0.75);
+  border-radius: 10px;
+  padding: 7px;
+  color: white;
+  /* padding-right: 23px; */
+  text-align: center;
+  margin-right: 30px;
+}
+
+.article_button1:hover {
+  background-color: rgb(66, 66, 66);
+  color: white;
+}
+
+.article_button2 {
+  width: 100px;
+  height: 40px;
+  background-color: rgba(3, 168, 78, 0.75);
+  border-radius: 10px;
+  padding: 7px;
+  color: white;
+  padding-right: 10px;
+  margin-right: 30px;
+}
+
+.article_button2:hover {
+  background-color: rgb(211, 0, 0);
+  color: white;
+}

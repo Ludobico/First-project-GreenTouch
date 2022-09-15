@@ -1,0 +1,99 @@
+/* BoardUpdateForm.css와 MdCreate 추가 */
+/* BoardUpdateForm.js의 form에 className='updateform' */
+/* 글 수정을 붓스트랩 버튼으로 바꿈*/
+
+.updateform {
+  width: 70%;
+  margin: 0 15vw;
+  padding-bottom: 30px;
+}
+
+.updateform table {
+  /* margin: auto; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 17px;
+  width: 100%;
+}
+
+.updateform input[type="text"] {
+  float: left;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.updateform tr:nth-child(2) td:nth-child(2) {
+  text-align: left;
+}
+
+.updateform textarea {
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.updateform tr td:first-child {
+  background: rgba(3, 168, 78, 0.75);
+}
+
+.updateform tr:nth-child(3) td {
+  background: white;
+  padding: 25px;
+}
+
+.updateform tr:last-child td {
+  background: white;
+}
+
+/* 테이블 내에 선 넣기 */
+.updateform table .tr {
+  padding: 10px;
+  border: 1px solid;
+}
+
+.updateform table .td {
+  color: white;
+}
+
+/* 글수정 버튼 */
+.updateform Button {
+  font-size: 17px;
+}
+
+.Update_button1 {
+  width: 120px;
+  height: 40px;
+  background-color: rgba(3, 168, 78, 0.75);
+  border-radius: 8px;
+  padding: 7px;
+  color: white;
+  padding-right: 27px;
+  margin-right: 20px;
+  float: left;
+  margin-left: 37%;
+}
+
+.Update_button1:hover {
+  background-color: rgb(66, 66, 66);
+  color: white;
+}
+
+.Update_button2 {
+  width: 120px;
+  height: 40px;
+  background-color: rgba(3, 168, 78, 0.75);
+  border-radius: 8px;
+  padding: 7px;
+  color: white;
+  padding-right: 10px;
+  margin-right: 20px;
+  float: left;
+}
+
+.Update_button2:hover {
+  background-color: rgb(66, 66, 66);
+  color: white;
+}

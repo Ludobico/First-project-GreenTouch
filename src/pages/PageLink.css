@@ -1,0 +1,13 @@
+.page {
+    display: inline;
+}
+
+.bootstrap_btn{
+    margin-left:5px;
+    transition: all 0.3s;
+}
+
+.bootstrap_btn:hover{
+    background-color: #337AB7;
+    color:white;
+}

@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'BMDOHYEON_ttf';
+  src: url('../fonts/BMDOHYEON_ttf.ttf')
+}
+
+.boardWriteDiv {}
+
+.boardWriteForm {
+  width: 70%;
+  margin: 0 15vw
+}
+
+.Main_top_title {
+  width: 100%;
+  display: block;
+  font-family: "DoHyeon";
+}
+
+.Main_top_title_top {
+  margin-left: 20px;
+  /* font-family: "DoHyeon"; */
+}
+
+.Main_top_title_top .board_title {
+  font-size: 3.5rem;
+  color: #424242
+}
+
+.Main_write .board_font {
+  font-size: 1.5rem;
+}
+
+.container {
+  height: 10vh;
+}
+
+.Main_write {
+  width: 100px;
+  float: left;
+  text-align: justify;
+  height: 120px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.tablewrite {
+  margin: 0 auto;
+  width: 100%;
+  font-size: 17px;
+  display: none;
+}
+
+.tb_button2 .board_font {
+  text-align: center;
+  padding-left: 0px;
+}
+
+.board_font {
+  text-align: center;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Gaegu&family=Gamja+Flower&family=Hi+Melody&display=swap"); */
+
+.boardWriteDiv p {
+  margin-left: 30px;
+}
+
+/* 글쓰기 토글 추가 */
+button:first-child {
+  /* padding-left: 20px; */
+}
+
+.boardWriteDiv label:hover {
+  cursor: pointer;
+  font-weight: bold;
+  text-shadow: 3px 3px 10px rgb(223, 216, 216);
+}
+
+/* 글쓰기 옆 검색창 */
+.boardWriteDiv .container {
+  display: flex;
+  margin-left: 0.5vw;
+}
+
+#searchdiv {
+  /* box-sizing: border-box; */
+  border: 1px solid #3bb78f;
+  height: 65px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 900px;
+}
+
+#searchdiv input {
+  padding: 7px;
+  border: none;
+  outline: none;
+}
+
+#searchdiv input::placeholder {
+  font-size: 1.5rem;
+}
+
+#searchdiv button {
+  font-size: 25px;
+  padding: 0 7px;
+}
+
+/* 테이블 */
+.tablewrite .tr {
+  border: 1px solid black;
+}
+
+.tablewrite tr td:first-child {
+  background: rgba(3, 168, 78, 0.75);
+  color: white;
+}
+
+.tablewrite tr:nth-child(3) td,
+.tablewrite tr:last-child td {
+  background: white;
+}
+
+/* .tablewrite tr,
+td {
+  padding: 10px;
+}
+
+.tablewrite input {
+  float: left;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.tablewrite tr:nth-child(2) td:nth-child(2) {
+  text-align: left;
+}
+
+.tablewrite textarea {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: none;
+  outline: none;
+} */
+
+/* 글쓰기 토글 눌러서 나타나는 테이블 */
+/* tablewrite와 같음 */
+.toggle {
+  display: block;
+  width: 100%;
+  font-size: 17px;
+  margin-bottom: 20vh;
+}
+
+.toggle tr,
+td {
+  padding: 10px;
+}
+
+/* 토글로 테이블이 나타나면 width:100%가 안 돼서 하나 추가 */
+.toggle td:nth-child(2) {
+  width: 90%;
+}
+
+.toggle input {
+  float: left;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.toggle tr:nth-child(2) td:nth-child(2) {
+  text-align: left;
+}
+
+.toggle tr:nth-child(3) li {
+  float: left;
+}
+
+.toggle textarea {
+  width: 100%;
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
+  border: none;
+  /* outline: none; */
+  padding: 15px;
+}
+
+.tb_button1 {
+  width: 100px;
+  height: 40px;
+  background-color: rgba(3, 168, 78, 0.75);
+  border-radius: 8px;
+  padding: 7px;
+  color: white;
+  /* padding-right: 20px; */
+  margin-right: 30px;
+}
+
+.tb_button2 {
+  width: 100px;
+  height: 40px;
+  background-color: rgba(3, 168, 78, 0.75);
+  border-radius: 8px;
+  padding: 7px;
+  color: white;
+  /* margin-right: 30px; */
+  margin-bottom: 10px;
+}
+
+.tb_button3 {
+  width: 100px;
+  height: 40px;
+  background-color: rgba(3, 168, 78, 0.75);
+  border-radius: 8px;
+  padding: 7px;
+  color: white;
+  margin-right: 30px;
+}
+
+.tb_button1:hover {
+  background-color: rgb(66, 66, 66);
+  color: white;
+}
+
+.tb_button2:hover {
+  background-color: rgb(66, 66, 66);
+  color: white;
+}
+
+.tb_button3:hover {
+  background-color: rgb(66, 66, 66);
+  color: white;
+}
+
+.container label {
+  color: rgba(3, 168, 78, 0.75);
+  font-weight: bold;
+  font-size: 20px;
+}
