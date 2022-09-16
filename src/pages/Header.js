@@ -75,7 +75,7 @@ function Header() {
         </button>
         {Login && (
           <button className="loginBtn" onClick={GotoLoginForm} ref={loginRef}>
-            로그인1
+            로그인
           </button>
         )}
         {LogOut && (
