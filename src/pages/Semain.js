@@ -12,6 +12,7 @@ import maintitle2 from "../images/se0_img/maintitle2.jpg";
 import maintitle3 from "../images/se0_img/maintitle3.jpg";
 import ChatAPI from "./ChatAPI";
 import { motion } from "framer-motion";
+import useStore from "../store/Store";
 
 // Import Swiper styles
 import "swiper/css";
@@ -32,6 +33,8 @@ const Semain = (props) => {
   const navigateadhd = useNavigate();
   const navigatemypage = useNavigate();
   const mypageLogin = window.sessionStorage.getItem("id");
+  const { test } = useStore();
+  const { pulltest } = useStore();
 
   const GotoDep = () => {
     navigateDep("/dep");

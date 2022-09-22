@@ -6,6 +6,10 @@ const useStore = create((set) => ({
   LogOut: false,
   setloginfalse: () => set((state) => ({ Login: !state.Login })),
   setlogoutfalse: () => set((state) => ({ LogOut: !state.LogOut })),
+  test: () => {
+    console.log("test com");
+  },
+  pulltest: 0,
 }));
 
 // 불러올때

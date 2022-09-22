@@ -73,12 +73,11 @@ function Header() {
         <button className="headerBtn" onClick={GotoBoard}>
           커뮤니티
         </button>
-        {Login && (
+        {window.sessionStorage.getItem("id") === null ? (
           <button className="loginBtn" onClick={GotoLoginForm} ref={loginRef}>
             로그인
           </button>
-        )}
-        {LogOut && (
+        ) : (
           <button className="loginBtn" onClick={GotoLogoutForm}>
             로그아웃
           </button>
