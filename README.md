@@ -19,5 +19,3 @@ ADHD페이지
 
 ### 서비스 흐름도
 ![image](https://user-images.githubusercontent.com/89598307/199146113-0f5fd233-f098-4ec5-b72c-d23dcdcc2b46.png)
-
-
