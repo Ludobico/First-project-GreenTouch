@@ -13,7 +13,7 @@ UI/UX총괄, 메인페이지
 ADHD페이지
 </div>
 <div><img src="https://img.shields.io/badge/이진주-3D03A7?style=for-the-badge&logo=MySQL&logoColor=white">
-백엔드 보조 및 게시판
+우울증 페이지,백엔드 보조 및 게시판
 </div>
 <p>프로젝트 제작 기간: 4주</p>
 
